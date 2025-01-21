@@ -23,7 +23,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
-    - coincbc
+    - coin-or-cbc
     - libboost-devel
     - libxmlpp-4.0
     - libxml2
