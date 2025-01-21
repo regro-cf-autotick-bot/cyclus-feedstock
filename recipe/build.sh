@@ -17,6 +17,7 @@ fi
 ${PYTHON} install.py \
   --prefix="${PREFIX}" \
   --cmake_prefix_path="${PREFIX}" \
+  --deps-root="${PREFIX}" \
   --allow-milps \
   ${skiprpath} \
   -DCMAKE_C_COMPILER=${GCC} \
