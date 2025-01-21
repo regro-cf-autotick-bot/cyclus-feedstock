@@ -61,6 +61,7 @@ about:
   license: BSD-3-Clause
   license_file: LICENSE.rst
   summary: "The agent-based fuel cycle simulator."
+  dev_url: https://github.com/cyclus/cyclus
 
 extra:
   recipe-maintainers:
