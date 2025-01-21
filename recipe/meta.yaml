@@ -34,22 +34,12 @@ requirements:
     - glib
     - python
     - pandas
-    - python
     - pprintpp
     - cython
   run:
-    - coincbc
-    - libboost-devel
-    - libxmlpp-4.0
-    - libxml2
-    - liblapack
     - blis
-    - hdf5
-    - sqlite
-    - glib
     - python
     - pandas
-    - python
     - pprintpp
 
 test:
