@@ -23,6 +23,9 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
+    - python
+    - pip
+    - setuptools
     - coin-or-cbc
     - libboost-devel
     - libxmlpp-4.0
@@ -30,9 +33,9 @@ requirements:
     - liblapack
     - blis
     - hdf5
+    - jinja2
     - sqlite
     - glib
-    - python
     - pandas
     - pprintpp
     - cython
